@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+const variable1 = "Bonjour à tous";
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ color: "red" }}>      
+      <h1>{variable1}</h1>
+      <p style={{ color: "green" }}>
+        Ce titre est en rouge grâce au style intégré dans la div
+      </p>
     </div>
   );
 }
