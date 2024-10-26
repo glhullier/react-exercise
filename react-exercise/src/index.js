@@ -7,10 +7,12 @@ import "./style/Index.scss"
 import ShoppingCar from "./components/ShoppingCar/index"
 import "./style/Home.scss"
 import "./style/ShoppingCar.scss"
+import Parent from "./components/Parent/index"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
+    <Parent/>
     <ShoppingCar/>
     <Home/>
     <App />

@@ -2,7 +2,8 @@ const variable1 = "Bonjour à tous";
 
 
 function App() {
-  return (
+  return (    
+    
     <div className="App" style={{ color: "red" }}>      
       <h1>{variable1}</h1>
       <p style={{ color: "green" }}>
